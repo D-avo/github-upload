@@ -1,0 +1,4 @@
+def table(in, out):
+  lamb = in + out**2
+  print('here we go)
+  return lamb

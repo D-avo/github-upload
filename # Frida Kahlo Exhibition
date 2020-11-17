@@ -1,0 +1,19 @@
+>>> paintings = ['The Two Fridas', 'My Dress Hangs Here', 'Tree of Hope', 'Self Portrait With Monkeys']
+>>> dates = [1939, 1933, 1946, 1940]
+>>> paintings = list(zip(paintings, dates))
+>>> print(paintings)
+[('The Two Fridas', 1939), ('My Dress Hangs Here', 1933), ('Tree of Hope', 1946), ('Self Portrait With Monkeys', 1940)]
+>>> paintings.append(('The Broken Column', 1944))
+>>> paintings.append(('The Wounded Deer', 1946))
+>>> paintings.append(('Me and My Doll', 1937))
+>>> print(paintings)
+[('The Two Fridas', 1939), ('My Dress Hangs Here', 1933), ('Tree of Hope', 1946), ('Self Portrait With Monkeys', 1940), ('The Broken Column', 1944), ('The Wounded Deer', 1946), ('Me and My Doll', 1937)]
+>>> len(paintings)
+7
+>>> audio_tour_number = list(range(1, 8))
+>>> print(audio_tour_number)
+[1, 2, 3, 4, 5, 6, 7]
+>>> master_list = list(zip(audio_tour_number, paintings))
+>>> print(master_list)
+[(1, ('The Two Fridas', 1939)), (2, ('My Dress Hangs Here', 1933)), (3, ('Tree of Hope', 1946)), (4, ('Self Portrait With Monkeys', 1940)), (5, ('The Broken Column', 1944)), (6, ('The Wounded Deer', 1946)), (7, ('Me and My Doll', 1937))]
+>>> 

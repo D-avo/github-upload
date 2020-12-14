@@ -6,3 +6,10 @@ def unique_english_letters(word):
     if letter in word:
       uniques += 1
   return uniques
+  
+  f count_char_x(word, x):
+  x_marks = 0
+  for letter in word:
+    if letter == x:
+      x_marks += 1
+  return x_marks
